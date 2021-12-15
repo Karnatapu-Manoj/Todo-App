@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+.manoj-portfolio-logo {
+    width: 80px;
+    height: 50px;
+}
+
+.banner-section-bg-container {
+    background-image: url('https://res.cloudinary.com/codingkaito/image/upload/v1633095687/MyPortfolio%20Project/developer-banner_mltjxj.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+/* Todo's Project CSS Section */
+
+.todos-bg-container {
+    background-image: url('https://res.cloudinary.com/codingkaito/image/upload/v1633154750/MyPortfolio%20Project/todoBackground_hfka8c.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-color: rgba(15, 14, 14, 0.753);
+}
+
+.todos-heading, todos-sub-heading-subpart {
+    font-family: "Roboto";
+    font-size: 42px;
+    color: #fff;
+    font-weight: 900;
+}
+.todos-sub-heading {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 300;
+}
+.todos-sub-heading-subpart {
+    font-weight: 700;
+    color: red;
+    font-size: 32px;
+}
+
+.todo-user-input {
+    background-color: white;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 5px;
+    border-color: #e4e7eb;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 35px;
+    padding: 15px;
+}
+
+.todo-items-container {
+    margin-left: 45px;
+    /* padding: 0; */
+}
+.add-todo-button {
+    color: white;
+    background-color: rgba(226, 18, 18, 0.705);
+    font-family: "Roboto";
+    font-size: 18px;
+    border-width: 0;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding: 5px 20px;
+}
+.checkbox-input {
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+.label-container {
+    background-color: #fff;
+    width: 100%;
+    border-style: solid;
+    border-width: 6px;
+    border-color: rgba(248, 2, 2, 0.808);
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 5px;
+}
+.checkbox-label {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    width: 80%;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+.delete-icon-container {
+    text-align: right;
+    width: 18%;
+}
+
+.delete-icon {
+    font-size: 20px;
+    padding: 10px;
+    color: rgba(248, 2, 2, 0.808);
+    
+}
